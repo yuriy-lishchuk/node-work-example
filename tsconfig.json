@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    // "types":["node", "jest"],
+    "types":["@types/jest"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "*.ts",
+    "routes/*.ts",
+    "routes/*.json",
+    "bin/www", "jest.config.js",
+    "tests/*.<file_test_extension>",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
